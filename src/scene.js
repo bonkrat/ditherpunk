@@ -42,7 +42,7 @@ export async function init() {
       scene.add(model);
 
       renderer = new THREE.WebGLRenderer();
-      renderer.setPixelRatio(window.devicePixelRatio / 6);
+      renderer.setPixelRatio(window.devicePixelRatio / 4);
       container.appendChild(renderer.domElement);
 
       composer = new EffectComposer(renderer);
